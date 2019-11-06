@@ -14,5 +14,5 @@ curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
 # copy config file
 cp -R .config ~
 # install vim plugins
-vim +PlugInstall +GoInstallBinaries +qa
+nvim +PlugInstall +GoInstallBinaries +qa
 echo 'install finished!'

@@ -1,8 +1,8 @@
 #/bin/sh
 
 # install nvim
-apt-get update
-apt-get install neovim
+sudo pt-get update
+sudo apt-get install neovim
 # replace vim by nvim
 echo "alias vim=\"nvim\"" >> ~/.profile
 echo "alias vi=\"nvim\"" >> ~/.profile

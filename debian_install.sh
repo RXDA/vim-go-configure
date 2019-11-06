@@ -1,12 +1,13 @@
 #/bin/sh
 
 # install nvim
+apt-get update
 apt-get install neovim
 # replace vim by nvim
 echo "alias vim=\"nvim\"" >> ~/.profile
 echo "alias vi=\"nvim\"" >> ~/.profile
 echo "alias oldvim=\"vim\"" >> ~/.profile
-source ~/.zshrc
+source ~/.profile
 # install vim-plug
 curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
